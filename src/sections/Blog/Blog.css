@@ -1,0 +1,111 @@
+.Blog_div {
+    max-height: 250px;
+    max-width: 400px;
+    overflow: hidden;
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+.light_box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none !important;
+    color: #fadb2a !important;
+}
+.blog_img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 20px;
+}
+.blog_heading {
+    text-transform: uppercase;
+    margin: 0px 20px;
+    display: block;
+    position: relative;
+    bottom: 80px;
+    width: 100%;
+    font-weight: bolder;
+    color: #fadb2a !important;
+    text-decoration: none !important;
+    text-align: left;
+}
+.blog_heading:link .blog_heading:hover {
+    text-decoration: none !important;
+    outline: none;
+    color: #fadb2a !important;
+    margin: 20px;
+}
+.blog_title {
+    text-transform: capitalize;
+    text-decoration: none !important;
+    display: block;
+    width: 100%;
+    color: #00468b;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 1024px) {
+    .Blog_div {
+        max-width: 95%;
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .Blog_div {
+        max-width: 95%;
+        width: 95%;
+    }
+    .blog_heading {
+        margin: 0px 10px;
+        bottom: 60px;
+        font-size: 18px;
+    }
+    .blog_title {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .Blog_div {
+        max-width: 95%;
+        width: 95%;
+    }
+    .blog_heading {
+        font-size: 18px;
+    }
+    .blog_title {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .Blog_div {
+        max-height: 200px;
+        height: 200px;
+        max-width: 95%;
+        width: 95%;
+    }
+    .blog_heading {
+        margin: 0px 10px;
+        font-size: 13px;
+    }
+    .blog_title {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .Blog_div {
+        max-height: 180px;
+        height: 180px;
+        max-width: 95%;
+        width: 95%;
+    }
+    .blog_heading {
+        margin: 0px 10px;
+        font-size: 13px;
+    }
+    .blog_title {
+        font-size: 15px;
+    }
+}

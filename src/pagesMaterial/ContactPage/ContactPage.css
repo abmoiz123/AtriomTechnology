@@ -1,0 +1,19 @@
+.creative_container_contactPage {
+    background-image: url('../../../static/polygonz.png');
+    background-size: cover !important;
+    padding: 50px 100px 100px 100px !important;
+    overflow: hidden !important;
+    margin: 0px !important;
+    width: 100% !important;
+}
+@media only screen and (max-width: 992px) {
+    .creative_container_contactPage {
+        padding: 30px 50px 50px 50px !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .creative_container_contactPage {
+        padding: 15px 15px 25px 15px !important;
+        overflow: hidden !important;
+    }
+}

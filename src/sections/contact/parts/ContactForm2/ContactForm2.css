@@ -1,0 +1,114 @@
+.contact_form_container {
+    /* margin: 0px !important; */
+    padding: 10px !important;
+}
+.Heading {
+    color: #f6b10a !important;
+}
+.Contact_form_row {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.Contact_form_col {
+    margin: 0px !important;
+    padding: 0px 10px !important;
+
+}
+input[type="text"]
+{
+    background: rgba(0, 0, 0, 0);
+}
+input::placeholder {
+    color:#fff;
+}
+.service {
+    margin: 5px 0px 10px 0px;
+    color: #fff;
+    font-size: 14px;
+}
+.serviceselect {
+    cursor: pointer;
+    font-size: small;
+    font-weight: lighter;
+    border: 1px solid #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #f6b10a;
+    margin: 3px 3px;
+}
+.serviceselect2 {
+    border: 1px solid #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: 3px 3px;
+}
+.serviceselect:hover {
+    width: fit-content;
+    color: #fff;
+    background-color: #f6b10a;
+    transition: 1s;
+}
+.serviceslist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.selectable {
+    display: none;
+}
+.selectable+label{
+    cursor: pointer;
+    font-size: small;
+    font-weight: lighter;
+    border: 1px solid #fff;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: #f6b10a;
+    margin: 3px 3px;
+}
+.selectable+label:hover {
+    color: #fff;
+    background-color: #f6b10a;
+    transition: 1s;
+}
+.selectable:checked + .selectable2 {
+    color: #fff;
+    background-color: #f6b10a;
+}
+.colum {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.submitbtn {
+    background-color: #f6b10a !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+    margin-left: 15px !important;
+}
+.submitbtn:hover, .submitbtn:focus, .submitbtn:active{
+    background-color: #fff !important;
+    color: #f6b10a !important;
+    border: 2px solid #f6b10a !important;
+}
+.submitbtn:focus, .submitbtn:active{
+    background-color: #fff !important;
+    color: #f6b10a;
+    border: 2px solid #f6b10a !important;
+    outline: none !important; 
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 776px) {
+    .Heading {
+        color: #f6b10a !important;
+        text-align: center;
+    }
+}
+/* * {
+    border: 1px solid;
+} */

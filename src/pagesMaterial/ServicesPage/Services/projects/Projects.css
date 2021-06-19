@@ -1,0 +1,269 @@
+
+/* services_define_css */
+
+.service_define_img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.service_define_heading {
+    color: #f6b10a;
+}
+.service_define_para {
+    color: #fff;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .service_define_img_col {
+        margin-bottom: 10px;
+    }
+    .service_define_para {
+        color: #fff;
+        text-overflow: ellipsis;    
+        text-align: justify;
+        font-size: small;
+    }
+    .service_define_heading {
+        margin-top: 15px;
+        color: #f6b10a;
+        font-size: 20px !important;
+        text-align: center;
+    }
+}
+
+/* Projects_define_css */
+
+.projects_con {
+    text-align: center !important;
+}
+.projects_row {
+    padding: 15px !important;
+    height: fit-content !important;
+}
+.client_review_col {
+    height: auto;
+    background-color: #00468b;
+    border-radius: 10px;
+    padding: 25px;
+}
+.client_info_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.client_img_div {
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.client_img {
+    color: #f6b10a;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.client_Project_Name_div {
+    flex: 1;
+}
+.client_Name_div {
+    margin-left: 15px;
+    flex: 1;
+}
+.client_Project_Name {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #f6b10a;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
+}
+.client_Project_Name_2 {
+    display: none;
+}
+.client_review_date {
+    text-align: left;
+    padding: 0px;
+    color: #fff;
+    font-size: medium;
+    margin: 0px;
+}
+.client_get_service {
+    text-align: left;
+    padding: 0px;
+    color: #f6b10a;
+    font-weight: bolder;
+    font-size: medium;
+    margin: 0px;
+}
+.client_get_service_2 {
+    display: none;
+}
+.client_Name_p {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #fff;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: left;
+}
+.client_Name_p2 {
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #f6b10a;
+    text-align: left;
+}
+.client_project_logo_div {
+    width: 150px !important;
+    height: 100px !important;
+}
+.client_project_logo {
+    width: 100%;
+}
+.client_review_star_div {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/* .client_review_detail .review {
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+.review {
+    text-align: justify;
+    padding: 10px 0px;
+    height: 60px;
+    color: #fff;
+    font-size: medium;
+    word-wrap: break-word;
+    /* text-overflow: ellipsis; */
+    margin: 0px;
+}
+.review_readmore_btn {
+    border: none;
+    color: #f6b10a;
+    background-color: #00468b;
+}
+.review_readmore_btn:hover, .review_readmore_btn:active {
+    outline: none !important;
+    border: none !important;
+    color: #f6b10a;
+    background-color: #00468b;
+}
+.client_status {
+    text-align: left;
+    padding: 0px;
+    color: #fff;
+    font-size: medium;
+    margin: 0px;
+}
+.client_Project_visit_div {
+    justify-content: center;
+    align-items: center;
+}
+.visit_project_btn {
+    background-color: #f6b10a;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: medium;
+    color: #013567;
+    font-weight: bolder;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.visit_project_btn:hover, .visit_project_btn:link {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+@media only screen and (max-width: 992px) {
+    .review {
+        height: 90px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .review {
+        height: 110px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .projects_row {
+        padding: 10px !important;
+        height: fit-content !important;
+    }
+    .client_review_col {
+        height: auto;
+        background-color: #00468b;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .client_Project_Name {
+        display: none;
+    }
+    .client_Project_Name_2 {
+        display: block;
+        padding: 0px !important;
+        margin: 0px !important;
+        color: #f6b10a;
+        font-weight: bolder;
+        font-size: larger;
+        text-align: left;
+    }
+    .client_get_service {
+        display: none;
+    }
+    .client_get_service_2 {
+        display: block;
+        text-align: left;
+        padding: 0px;
+        color: #f6b10a;
+        font-weight: bolder;
+        font-size: medium;
+        margin: 0px;
+    }
+    .client_project_logo_div {
+        width: 120px !important;
+        height: 80px !important;
+    }
+    .client_project_logo {
+        width: 100% !important;
+    }
+    .client_review_detail {
+        /* margin-left: 60px; */
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+    .review {
+        text-align: justify;
+        padding: 10px 0px;
+        color: #fff;
+        height: 80px;
+        font-size: small;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        margin: 0px;
+    }
+    .client_Name_p {
+        font-size: small;
+    }
+    .visit_project_btn {
+        background-color: #f6b10a;
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 10px;
+        font-weight: bolder;
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .review {
+        height: 90px;
+    }
+}
+/* * {
+    border: 1px solid;
+} */
