@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-mobile-app-development-index-js": () => import("./../src/pages/MobileAppDevelopment/index.js" /* webpackChunkName: "component---src-pages-mobile-app-development-index-js" */),
   "component---src-pages-portfolio-index-js": () => import("./../src/pages/Portfolio/index.js" /* webpackChunkName: "component---src-pages-portfolio-index-js" */),
+  "component---src-pages-privacy-policies-index-js": () => import("./../src/pages/PrivacyPolicies/index.js" /* webpackChunkName: "component---src-pages-privacy-policies-index-js" */),
   "component---src-pages-search-engine-optimization-index-js": () => import("./../src/pages/SearchEngineOptimization/index.js" /* webpackChunkName: "component---src-pages-search-engine-optimization-index-js" */),
   "component---src-pages-services-index-js": () => import("./../src/pages/Services/index.js" /* webpackChunkName: "component---src-pages-services-index-js" */),
   "component---src-pages-social-media-marketing-index-js": () => import("./../src/pages/SocialMediaMarketing/index.js" /* webpackChunkName: "component---src-pages-social-media-marketing-index-js" */),

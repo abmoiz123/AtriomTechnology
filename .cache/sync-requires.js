@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\index.js"))),
   "component---src-pages-mobile-app-development-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\MobileAppDevelopment\\index.js"))),
   "component---src-pages-portfolio-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\Portfolio\\index.js"))),
+  "component---src-pages-privacy-policies-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\PrivacyPolicies\\index.js"))),
   "component---src-pages-search-engine-optimization-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\SearchEngineOptimization\\index.js"))),
   "component---src-pages-services-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\Services\\index.js"))),
   "component---src-pages-social-media-marketing-index-js": hot(preferDefault(require("C:\\Users\\ITC\\Desktop\\Abstract\\abstract\\src\\pages\\SocialMediaMarketing\\index.js"))),

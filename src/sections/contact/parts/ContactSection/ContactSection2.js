@@ -1,8 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-
-import {Col, Container} from 'react-bootstrap'
+import { Col, Container } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import "./ContactSection.css";
+import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 class ContactSection extends React.Component {
     render() {
         const Separator = styled.div`
@@ -23,12 +27,22 @@ class ContactSection extends React.Component {
                         At Atriom Technologies, we deliver innovative solutions that allow you to reach your goals and  surpass them, with us it’s a complete roadmap to success.</p>
                     <h5 className="infoheding">Locate</h5>
                     <Separator />
-                    <p className="com_info">3rd Floor, R-209, Saba Avenue, Main Road, Block 13 D 2 Gulshan-e-Iqbal, Karachi City, Sindh 75300</p>
+                    <p className="com_info">
+                        <FontAwesomeIcon className="contact_form_icon" icon={faHome} />
+                        3rd Floor, R-209, Saba Avenue, Main Road, Block 13 D 2 Gulshan-e-Iqbal, Karachi City, Sindh 75300</p>
                     <br />
-                    <p className="com_info">International House, 12 Constance Street, London, United Kingdom</p>
+                    <p className="com_info">
+                        <FontAwesomeIcon className="contact_form_icon" icon={faHome} />
+                        International House, 12 Constance Street, London, United Kingdom</p>
                     <h5 className="infoheding">Contact</h5>
                     <Separator />
-                    <p className="com_info">info@atriom.co.uk<br />+44 7401379573, +92 3020825699</p>
+                    <p className="com_info">
+                        <FontAwesomeIcon className="contact_form_icon" icon={faEnvelope} />
+                        info@atriom.co.uk<br />
+                        <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
+                        +44 7401379573,<br />
+                        <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
+                        +92 3020825699</p>
                 </Col>
             </Container>
         )

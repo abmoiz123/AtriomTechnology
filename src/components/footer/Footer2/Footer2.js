@@ -16,6 +16,10 @@ import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
+import { faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBusinessTime } from '@fortawesome/free-solid-svg-icons';
 import "./Footer2.css"
 import Paymentpic from '../../../../static/paymentfooter.png'
 import googlepartner from '../../../../static/googlepartner.png'
@@ -107,11 +111,21 @@ class Footer2 extends React.Component {
                                     <h3 className="About_Us_heading">About Us</h3>
                                     <Separator className="About_Us_heading" />
                                     <ul className="info_ul">
-                                        <li className="info_li">We Promise the Growth of your Business!</li>
-                                        <li className="info_li">+44 7401379573</li>
-                                        <li className="info_li">+92 3020825699</li>
-                                        <li className="info_li">info@atriom.co.uk</li>
-                                        <li className="info_li">7 Days a week from 10-00 am to 6-00 pm</li>
+                                        <li className="info_li">
+                                            <FontAwesomeIcon className="contact_form_icon" icon={faQuoteRight} />
+                                            We Promise the Growth of your Business!</li>
+                                        <li className="info_li">
+                                            <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
+                                            +44 7401379573</li>
+                                        <li className="info_li">
+                                            <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
+                                            +92 3020825699</li>
+                                        <li className="info_li">
+                                            <FontAwesomeIcon className="contact_form_icon" icon={faEnvelope} />
+                                            info@atriom.co.uk</li>
+                                        <li className="info_li">
+                                            <FontAwesomeIcon className="contact_form_icon" icon={faBusinessTime} />
+                                            7 Days a week from 10-00 am to 6-00 pm</li>
                                     </ul>
                                 </div>
                             </Navbar.Collapse>
@@ -134,7 +148,7 @@ class Footer2 extends React.Component {
                                         <li className="info_li"><Link to="/Portfolio" className="info_li_link">Portfolio</Link></li>
                                         <li className="info_li"><Link to="/Contact" className="info_li_link">Contact Us</Link></li>
                                         <li className="info_li"><Link to="#" className="info_li_link">FAQs</Link></li>
-                                        <li className="info_li"><Link to="#" className="info_li_link">Privacy Policies</Link></li>
+                                        <li className="info_li"><Link to="/PrivacyPolicies" className="info_li_link">Privacy Policies</Link></li>
                                     </ul>
                                 </div>
                             </Navbar.Collapse>
