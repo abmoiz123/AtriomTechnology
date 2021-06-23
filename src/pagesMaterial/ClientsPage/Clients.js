@@ -389,6 +389,13 @@ class ClientsPage extends React.Component {
                     link: "/Clients",
                     fadein: 'fadeInRight'
                 },
+                {
+                    id: 55,
+                    clientlogo: clientsimg.client13,
+                    clientproject: "Boomerce",
+                    link: "https://boomerce.com/",
+                    fadein: 'fadeInLeft'
+                },
             ],
         }
     }
@@ -409,13 +416,14 @@ class ClientsPage extends React.Component {
                 // }
               }
             `
-        let clients = this.state.clients
+        const items = this.state.clients;
+        const reversedItems = items.map(item => item).reverse();
         return (
             <Section>
                 <Container>
                     <AnimatedHeading text="Our Trusted Clients" />
                     <Row>
-                        {clients.map((v, i) => {
+                        {reversedItems.map((v, i) => {
                             return (
                                 <Col className="service_col" lg={3} md={4} sm={6} xs={6} key={i}>
                                     <AnimationContainer animation={v.fadein} delay={1200}>

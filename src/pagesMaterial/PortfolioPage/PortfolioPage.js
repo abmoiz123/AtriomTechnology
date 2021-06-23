@@ -340,6 +340,13 @@ class PortfolioPage extends React.Component {
                     category: "WordPress",
                     link: "https://www.zubaircoals.com/",
                 },
+                {
+                    id: 48,
+                    image: portimage.project47,
+                    title: "Boomerce",
+                    category: "WordPress",
+                    link: "https://boomerce.com/",
+                },
             ],
         }
     }
@@ -526,7 +533,8 @@ class PortfolioPage extends React.Component {
                 },
             ]
         }
-        let items = this.state.portfolio
+        const items = this.state.portfolio;
+        const reversedItems = items.map(item => item).reverse();
         return (
             <Section id="portfolio">
                 <Col md={12}>
@@ -536,7 +544,7 @@ class PortfolioPage extends React.Component {
                     <PortfolioContainer>
                         <Mobile>
                             <Slider {...settings}>
-                                {items.map((v, i) => {
+                                {reversedItems.map((v, i) => {
                                     return (
                                         <Col md={4} key={i}>
                                             <a href={v.link} target="_blank" rel="noopener noreferrer" id={v.id}>
@@ -557,7 +565,7 @@ class PortfolioPage extends React.Component {
                         </Mobile>
                         <Web>
                             <Row>
-                                {items.map((v, i) => {
+                                {reversedItems.map((v, i) => {
                                     return (
                                         <Col md={4} key={i}>
                                             <a href={v.link} target="_blank" rel="noopener noreferrer" id={v.id}>

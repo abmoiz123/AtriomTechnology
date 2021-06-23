@@ -38,9 +38,10 @@ class Webdevlopment extends React.Component {
                         <AnimatedHeading text="Our Services" />
                         <Row className="services_row">
                             <Col className="service_img_col" md={5} sm={12} xs={12}>
-                                <AnimationContainer animation="fadeInLeft" delay={600}>
+                                <a href="/Webdevelopment" className="read_more_link"><img className="service_img" src={webservice} alt="Web-devlopment" /></a>
+                                {/* <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <a href="/Webdevelopment" className="read_more_link"><img className="service_img" src={webservice} alt="Web-devlopment" /></a>
-                                </AnimationContainer>
+                                </AnimationContainer> */}
                             </Col>
                             <Col className="service_text_col" md={7} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInDown" delay={600}>
@@ -59,4 +60,4 @@ class Webdevlopment extends React.Component {
 
 }
 
-export default Webdevlopment; 
+export default Webdevlopment;

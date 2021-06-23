@@ -41,7 +41,7 @@ class Gdva2 extends React.Component {
                                     <div className="serviceinsdie_text_div">
                                         <h4 className="service_heading_style">Our Experts Provide Animated Video Creation Services</h4>
                                         <p className="service_para_style">
-                                            We strive towards customer satisfaction; thus, we make sure to create a strong bond with our clients. We wish to make them feel comfortable and enjoy the whole process while also making sure that in the end, we give them something that exceeds their expectations.
+                                            Discover a Webflow-embraced supporter to help along with your next project. Examine consultants smitten by what you would like and connect with beginning a discussion. Create reusable pictures. Add your code. Keep elements coordinated. Fare code for transfer. Models: Core concepts, CSS associations, 3D Styles, and also the sky is that the limit from there
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -61,11 +61,9 @@ class Gdva2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Digital Graphiks is The Best Custom Logo Design Company</h4>
+                                        <h4 className="service_heading_style">Engage your Audience through video Animation Graphics</h4>
                                         <p className="service_para_style">
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
+                                            The upward thrust of virtual movement portraits is specifically due to its cap potential to make clear an idea and visualize within side the maximum aesthetically fascinating manner. Though ‘idea’ and ‘visualization’ join the dots again to the perception of telling an invigorating ‘story’.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -75,11 +73,9 @@ class Gdva2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Digital Graphiks is The Best Custom Logo Design Company</h4>
+                                        <h4 className="service_heading_style">Animation Method of Photography </h4>
                                         <p className="service_para_style">
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
-                                            We ensure to give our clients the best logo design according to their requirements and needs.
+                                            Animation ought to be a method of photographing consecutive drawings, models, or possibly puppets, to make AN phantasm of motion throughout a sequence. as a result of our eyes will entirely continue an image for approx. 1/10 of a second, as soon as a couple of pix appear in rapid succession, the Genius blends them into one shifting image. In historic animation, photographs are drawn or painted on clear celluloid sheets to be photographed
                                         </p>
                                     </div>
                                 </AnimationContainer>

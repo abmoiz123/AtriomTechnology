@@ -66,7 +66,7 @@ class Webdevlopment3 extends React.Component {
                                     "opacity_min": 0.1,
                                     "sync": false
                                 }
-                            },
+                            }, 
                             "size": {
                                 "value": 8.017060304327615,
                                 "random": true,

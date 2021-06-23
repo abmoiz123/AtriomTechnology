@@ -40,9 +40,9 @@ class Mad2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We Provide iOS App Development Service for Every Apple Device</h4>
+                                        <h4 className="service_heading_style">Set the Goals and Objectives of the Mobile Application</h4>
                                         <p className="service_para_style">
-                                            Our team offers iOS app development services to add captivative and useful products for your target audience. Our iOS app design team works for both enterprise and consumer level business to provide engaging mobile experience.
+                                            In all the application projects we have participated in, I have noticed a continuing trend: mobile application development is a bit like a recorder, especially if you don’t have any programming skills. According to a recent study, about one-fifth of small and medium-sized companies have developed mobile apps, and many companies plan to launch them in 2016.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -62,10 +62,9 @@ class Mad2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Our Premium Android Application Development Services</h4>
+                                        <h4 className="service_heading_style">Developing the App</h4>
                                         <p className="service_para_style">
-                                            No one can serve you better in Karachi than we do. We develop your demanded android applications accurately with a team of android experts.
-                                            No one can serve you better in Karachi than we do. We develop your demanded android applications accurately with a team of android experts.
+                                            In fact, application development involves many steps and processes. If you are not using an application development platform or a mobile BaaS provider, your developers need to understand the storage solutions, databases, APIs, and specific servers behind the application. ... If you don't have an app store yet, don't forget to coordinate the developer account of the app store you want to use to distribute the app.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -75,9 +74,9 @@ class Mad2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We Worth For Your Investment in Our iOS App Development Services</h4>
+                                        <h4 className="service_heading_style">Define the Backend of the Mobile Application</h4>
                                         <p className="service_para_style">
-                                            We are a team of efficient iOS app designers in Karachi. Our expert iOS developers produce highly optimized iOS applications. We work closely on efficiency and the outlook of the application while being on a budget. Our work in developing iOS apps.
+                                            Wireframes and storyboards can be used as a guide to the internal structure required supporting the application-think about APIs, data patterns, servers, data integration, and pushing notification services. In many cases, small and medium businesses find that choosing a mobile server as a service (BaaS) platform is a wise choice because it solves common problems such as scalability and internal functionality.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -97,9 +96,9 @@ class Mad2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We Professionally and Powerfully Create App with Flutter</h4>
+                                        <h4 className="service_heading_style">Our Premium Android Application Development Services</h4>
                                         <p className="service_para_style">
-                                            Digital Graphiks has been a well-known name in providing web designing services across Karachi. We have all the way experienced web developers that work according to the clients' needs. Like we have proven ourselves on other grounds; one of our expertises also lies in app development with Flutter.
+                                            Setting goals for mobile applications. This is an important step in the planning phase of mobile applications. Once you are sure that the application will help you achieve important goals in your mobile marketing plan, you need to outline how your application will help you achieve your goals.
                                         </p>
                                     </div>
                                 </AnimationContainer>

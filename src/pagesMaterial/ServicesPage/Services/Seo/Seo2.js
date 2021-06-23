@@ -40,9 +40,9 @@ class Seo2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Top SEO Company supplying Performance Oriented Solutions</h4>
+                                        <h4 className="service_heading_style">Search Engine Optimization</h4>
                                         <p className="service_para_style">
-                                            Other than SEO expert Karachi, our experts are also SEO consultant Karachi. They help you in gaining top ranking in google search results. Among one of the top leading digital marketing companies in Karachi, we have been providing high-quality work to our clients for the past several years.
+                                            It’s important to stay in mind that if program traffic is your only goal, your results will probably suffer. so as to please both the search engines (who will reward you with high rankings over time) and potential customers and return visitors, you would like to supply value above and beyond program optimization. In other words, don’t produce “thin” content that ranks and obtain clicks, but doesn’t provide any additional value to the program user. Sites that promote “thin,” low-value content run the danger of being penalized by Google; they also tend to possess high bounce rates and low conversion rates.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -62,9 +62,9 @@ class Seo2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Increasing Visibility of Your Website with Our SEO Services Karachi</h4>
+                                        <h4 className="service_heading_style">SEO Content and Writings</h4>
                                         <p className="service_para_style">
-                                            Indeed, we are the best SEO company in Karachi we provide, unique marketing strategies and effective SEO services globally. We understand that the success of our client’s business depends on the number of traffic on the website.
+                                        SEO writing (also known as “writing for SEO”) is the process of planning, creating and optimizing content with the primary goal of ranking in search engines.Content should be your first priority when brooding about SEO. Quality content is how you engage, inform, support and delight your audiences. Creating authentic, valuable content is additionally critical for program visibility. Indeed, that’s why the table Of SEO Factors begins with the content “elements,” with the very first element being about content quality.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -74,9 +74,9 @@ class Seo2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Top SEO Company in Karachi that Grow Traffic for your Website</h4>
+                                        <h4 className="service_heading_style">Hosts, Domains and URLs</h4>
                                         <p className="service_para_style">
-                                            Do you know that effective Search Engine Optimization practices can increase the engagement of your website effectively? Being a top SEO company, our experts do a wide-ranging competitor research and market analysis to see which technique of SEO is the best for our client.
+                                        The Uniform Resource Locator or URL is the unique address of a file on the Internet. The URL consists of the protocol, the hostname (corresponding to the document root directory of the host in the host file system), and the relative path of the downloaded file (relative to the document root directory. This is a short form. We will now before we understand some related concepts, Please dig into the different parts of the URL as early as possible.
                                         </p>
                                     </div>
                                 </AnimationContainer>

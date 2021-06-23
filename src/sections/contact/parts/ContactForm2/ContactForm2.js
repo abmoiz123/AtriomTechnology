@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 import "./ContactForm2.css"
-import axios from 'axios'
+// import axios from 'axios'
 
 class ContactForm2 extends React.Component {
   constructor(props) {
@@ -217,6 +217,18 @@ class ContactForm2 extends React.Component {
           <Col className="Contact_form_col" md={12}>
             <p className="service">Approximate Budget</p>
             <div className="serviceslist">
+              <div>
+                <input
+                  type="radio"
+                  onClick={(e) => this.setState({ budget: e.target.value })}
+                  name="budget"
+                  id="budget0"
+                  value="$5.000 - $10.000"
+                  className="selectable" />
+                <label className="selectable2" htmlFor="budget0">
+                  Less then $5.000
+                </label>
+              </div>
               <div>
                 <input
                   type="radio"

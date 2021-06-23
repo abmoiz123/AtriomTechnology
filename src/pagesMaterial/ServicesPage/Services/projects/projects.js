@@ -18,10 +18,13 @@ import Client1project from '../projects/clientspic/salimkhanproject.png'
 import Client2project from '../projects/clientspic/masoodahmadproject.png'
 import Client3project from '../projects/clientspic/usmanabdurrazzaqproject.png'
 import Client4project from '../projects/clientspic/Asimlatifproject.png'
+// import Client5project from '../projects/clientspic/bigMapClothing.png'
 import Client1img from '../projects/clientspic/salimkhan.jpg'
 import Client2img from '../projects/clientspic/masoodahmad.jpg'
 import Client3img from '../projects/clientspic/usmanabdurrazzaq.jpg'
 import Client4img from '../projects/clientspic/Asimlatif.jpg'
+// import User from '../projects/clientspic/user.png'
+import ReadMoreReact from 'read-more-react';
 
 
 class Projects extends React.Component {
@@ -155,18 +158,18 @@ class Projects extends React.Component {
                     clientStatus: "Director",
                     link: "https://e-commercecentral.com/",
                 },
-                {
-                    id: 5,
-                    projectName: "big Map Clothing",
-                    reviewDate: "February 14, 2020",
-                    service: "E-commerce",
-                    projectLogo: Client2project,
-                    review: "Good service. Highly Recommended",
-                    clientImg: ClientImg,
-                    clientName: "Syed Bilal",
-                    clientStatus: "Director",
-                    link: "https://a2zutility.com/",
-                },
+                // {
+                //     id: 5,
+                //     projectName: "big Map Clothing",
+                //     reviewDate: "February 14, 2020",
+                //     service: "E-commerce",
+                //     projectLogo: Client5project,
+                //     review: "Good service. Highly Recommended",
+                //     clientImg: User,
+                //     clientName: "Syed Bilal",
+                //     clientStatus: "Director",
+                //     link: "https://a2zutility.com/",
+                // },
             ],
         }
     }
@@ -431,10 +434,17 @@ class Projects extends React.Component {
                                                     {v.review.length > 140 ?
                                                         (
                                                             <div className="review">
-                                                                {`${v.review.substring(0, 140)}...`}<button className="review_readmore_btn" onClick={(e) => this.readmore(e)}>Read more</button>
+                                                                <ReadMoreReact text={v.review}
+                                                                    min={20}
+                                                                    ideal={100}
+                                                                    max={140}
+                                                                    readMoreText={<span className="review_readmore_btn">ReadMore</span>} />
                                                             </div>
+                                                            // <div className="review">
+                                                            //     {`${v.review.substring(0, 140)}...`}<button className="review_readmore_btn" onClick={(e) => this.readmore(e)}>Read more</button>
+                                                            // </div>
                                                         ) :
-                                                        <p className="review">{v.review}</p>
+                                                        <p className="review2">{v.review}</p>
                                                     }
                                                 </div>
                                                 {/* <div className="client_review_detail">

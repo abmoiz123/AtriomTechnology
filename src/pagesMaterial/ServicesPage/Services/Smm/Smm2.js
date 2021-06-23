@@ -39,9 +39,9 @@ class Smm2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We are the Leaders among Top Social Media Marketing Companies</h4>
+                                        <h4 className="service_heading_style">Social Media Marketing</h4>
                                         <p className="service_para_style">
-                                            Other than SEO expert Karachi, our experts are also SEO consultant Karachi. They help you in gaining top ranking in google search results. Among one of the top leading digital marketing companies in Karachi, we have been providing high-quality work to our clients for the past several years.
+                                            The term "Social Media Marketing" (SMM) refers to the use of social media and social media to establish connections with company products and services. , Mission or tone. Social media marketing specifically designed data analysis tools to enable marketers to track the success of their efforts.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -61,9 +61,9 @@ class Smm2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Top SEO Company Grow Traffic for your Website</h4>
+                                        <h4 className="service_heading_style">How Does Social Media (SMM) Works</h4>
                                         <p className="service_para_style">
-                                            Do you know that effective Search Engine Optimization practices can increase the engagement of your website effectively? Being a top SEO company, our experts do a wide-ranging competitor research and market analysis to see which technique of SEO is the best for our client. This technique brings a long-lasting traffic towards your website.
+                                            Social media has changed the way we operate as a society, including the way we interact with each other. With the advancement of platforms such as Facebook, Twitter and Instagram, companies have also noticed this. These sites promote your interest through social media marketing. This is because these sites can change consumer behavior.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -73,9 +73,9 @@ class Smm2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We have earned a huge name for providing successful SMM Strategy</h4>
+                                        <h4 className="service_heading_style">Social Media Advertising</h4>
                                         <p className="service_para_style">
-                                            No business is successful without a strong marketing strategy. Any business whether it is of goods or services needs to be marketed effectively. You always need to reach out to your audience at the right time & at the right place to your audience at the right time & at the right place.
+                                        When you have a lot of funds to grow your social media selling, a neighborhood that you simply will contemplate is social media advertising. Social media ads permit you to succeed in a wider audience than people who area unit following you.Social media advertising platforms area unit thus powerful today that you simply will specify specifically United Nations agency to show your ads to. You’ll be able to produce target audiences supported their demographics, interests, behaviors, and more.
                                         </p>
                                     </div>
                                 </AnimationContainer>

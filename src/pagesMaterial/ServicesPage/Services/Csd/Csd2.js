@@ -9,9 +9,9 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import csdimg1 from './csdimages/csd1.png'
-import csdimg2 from './csdimages/csd2.png'
-import csdimg3 from './csdimages/csd3.png'
+import csdimg1 from './csdimages/csd6.png'
+import csdimg2 from './csdimages/csd4.png'
+import csdimg3 from './csdimages/csd5.png'
 
 class Csd2 extends React.Component {
     render() {
@@ -39,9 +39,9 @@ class Csd2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We are the Leaders among Top Social Media Marketing Companies</h4>
+                                        <h4 className="service_heading_style">Introduction to Custom Software Development</h4>
                                         <p className="service_para_style">
-                                            Other than SEO expert Karachi, our experts are also SEO consultant Karachi. They help you in gaining top ranking in google search results. Among one of the top leading digital marketing companies in Karachi, we have been providing high-quality work to our clients for the past several years.
+                                        Recollect specifically twenty years previous, the merchandise advancement market in those days had a very distinctive state of affairs contrasted with what it's presently. the many distinctions that organizations discover now's the liberty to foster any quiet use that within the IT business is called as making custom programming applications smitten by the perfect innovation stack, needed ranges of skills, skill, and improvement procedures.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -61,9 +61,9 @@ class Csd2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Top SEO Company Grow Traffic for your Website</h4>
+                                        <h4 className="service_heading_style">Custom software development services</h4>
                                         <p className="service_para_style">
-                                            Do you know that effective Search Engine Optimization practices can increase the engagement of your website effectively? Being a top SEO company, our experts do a wide-ranging competitor research and market analysis to see which technique of SEO is the best for our client. This technique brings a long-lasting traffic towards your website.
+                                        It is tough to select a company to form a product application for your business. you must search for organizations to supply for the work and choose the organization that guarantees the right price and level of administration. These organizations usually meet with the mentioning associations to survey their requirements and choose the combined total of labour required to form the custom programming.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -73,9 +73,9 @@ class Csd2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We have earned a huge name for providing successful SMM Strategy</h4>
+                                        <h4 className="service_heading_style">Custom software vs. off-the-shelf software</h4>
                                         <p className="service_para_style">
-                                            No business is successful without a strong marketing strategy. Any business whether it is of goods or services needs to be marketed effectively. You always need to reach out to your audience at the right time & at the right place to your audience at the right time & at the right place.
+                                        Redone programming improvement involves the authorizing, advancement of Off-the-rack programming contains a bundled programming application accessible to a massive crowd with unsteady, however in an exceedingly general sense comparative, needs. For example, Microsoft Word is meant for the mass public as a solution for the numerous wants of its shoppers. In any case, it does not oblige a selected gathering or wants as custom programming would.
                                         </p>
                                     </div>
                                 </AnimationContainer>

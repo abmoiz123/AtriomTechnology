@@ -9,9 +9,9 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import bssimg1 from './bssimages/bss1.png'
-import bssimg2 from './bssimages/bss2.png'
-import bssimg3 from './bssimages/bss3.png'
+import bssimg1 from './bssimages/bss6.png'
+import bssimg2 from './bssimages/bss4.png'
+import bssimg3 from './bssimages/bss5.png'
 
 class Bss2 extends React.Component {
     render() {
@@ -39,9 +39,9 @@ class Bss2 extends React.Component {
                             <Col className="serviceinsdieseo_text_col" lg={6} md={6} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We are the Leaders among Top Social Media Marketing Companies</h4>
+                                        <h4 className="service_heading_style">More regarding IT software system Solutions for Business</h4>
                                         <p className="service_para_style">
-                                            Other than SEO expert Karachi, our experts are also SEO consultant Karachi. They help you in gaining top ranking in google search results. Among one of the top leading digital marketing companies in Karachi, we have been providing high-quality work to our clients for the past several years.
+                                            A business software system (or a business application) is any software system or set of business programs employed by business users to perform varied business functions. These business applications area unit accustomed increase productivity, live production and perform alternative business functions accurately.One of the areas of greatest demand in today’s business world is providing software system solutions.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -61,9 +61,9 @@ class Bss2 extends React.Component {
                             <Col lg={6} md={6} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Top SEO Company Grow Traffic for your Website</h4>
+                                        <h4 className="service_heading_style">Project Management Software</h4>
                                         <p className="service_para_style">
-                                            Do you know that effective Search Engine Optimization practices can increase the engagement of your website effectively? Being a top SEO company, our experts do a wide-ranging competitor research and market analysis to see which technique of SEO is the best for our client. This technique brings a long-lasting traffic towards your website.
+                                            Forget about effective business management while not using an infatuated project management tool. That’s why we’re starting the list with nTask. A project management software system coming back with a large number of options to help you complete your business comes with success.This can involve making utterly new systems or modifying existing ones, operating as a region of the team to blame for analysis and elegance, construction, testing, and maintenance.
                                         </p>
                                     </div>
                                 </AnimationContainer>
@@ -73,9 +73,9 @@ class Bss2 extends React.Component {
                             <Col lg={6} md={6} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">We have earned a huge name for providing successful SMM Strategy</h4>
+                                        <h4 className="service_heading_style">Customer Support Software</h4>
                                         <p className="service_para_style">
-                                            No business is successful without a strong marketing strategy. Any business whether it is of goods or services needs to be marketed effectively. You always need to reach out to your audience at the right time & at the right place to your audience at the right time & at the right place.
+                                            Forget about effective business management while not using a frenzied project management tool. That’s why we’re starting the list with nTask. A project management code returning with a large number of options to help you complete your business comes with success.This field changes apace creating is essential to remain on high of the most recent developments among the trade to best serve shoppers.
                                         </p>
                                     </div>
                                 </AnimationContainer>

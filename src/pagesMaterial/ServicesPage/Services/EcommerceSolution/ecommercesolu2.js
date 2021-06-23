@@ -11,14 +11,9 @@ import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
 import './ecommercesolu.css'
-// import addtocart from './imagesforservice/addtocart.png'
 import addtocart from './imagesforservice/products.png'
-// import image1 from './imagesforservice/slideersection2/image1.png'
-// import image2 from './imagesforservice/slideersection2/image2.png'
 import image1 from './imagesforservice/slideersection2/img1.png'
 import image2 from './imagesforservice/slideersection2/img2.png'
-// import phone from './imagesforservice/slidersection3/phoneslide.png'
-// import phone2 from './imagesforservice/slidersection3/phoneslide2.png'
 import phone from './imagesforservice/slidersection3/img1.png'
 import phone2 from './imagesforservice/slidersection3/img3.png'
 import mobslide1 from './imagesforservice/mobileslide/slide1.png'
@@ -68,8 +63,11 @@ class Ecommercesolu2 extends React.Component {
                                     <div className="serviceinsdie_text_div">
                                         <h4 className="service_heading_style">Managed E-Commerce Solutions</h4>
                                         <p className="service_para_style">
-                                            They is designed to help you conduct your business electronically. Some of the solutions we offer include answers to a given problem. Such features will come in handy to enable you to carry out your eCommerce transactions efficiently. Therefore, if you are an online merchant looking to improve your business with clients, then you have come to the right place.
-                                    </p>
+                                            We offer the best web-based services that ensure your audience remains on your page and learns more about your business instead of leaving
+                                            Our diligence and dedication has earned us a ranking within the top e-Commerce development companies
+                                            Our skilled team has the knowledge and tools that make them the simplest at e-Commerce website designing
+                                            The result we come up with always fulfils our client's requirements and satisfies them.
+                                        </p>
                                     </div>
                                 </AnimationContainer>
                             </Col>
@@ -123,10 +121,10 @@ class Ecommercesolu2 extends React.Component {
                             <Col className="serviceinsdie_text_col_2" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInRight" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Managed E-Commerce Solutions</h4>
+                                        <h4 className="service_heading_style">Amazon, Dropshipping and Digital Marketing Services</h4>
                                         <p className="service_para_style">
-                                            They is designed to help you conduct your business electronically. Some of the solutions we offer include answers to a given problem. Such features will come in handy to enable you to carry out your eCommerce transactions efficiently. Therefore, if you are an online merchant looking to improve your business with clients, then you have come to the right place.
-                                    </p>
+                                            We design eCommerce websites with complete optimization that ensures it is user friendly and easy to use and catches the public eyes. We are providing the safe, secure and user-friendly Payment Gateway Integration that means, the payment gateway feature that provides secure and fast transaction with an easy return.
+                                        </p>
                                     </div>
                                 </AnimationContainer>
                             </Col>
@@ -135,10 +133,10 @@ class Ecommercesolu2 extends React.Component {
                             <Col className="serviceinsdie_text_col" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Managed E-Commerce Solutions</h4>
+                                        <h4 className="service_heading_style">Amazon Services</h4>
                                         <p className="service_para_style">
-                                            They is designed to help you conduct your business electronically. Some of the solutions we offer include answers to a given problem. Such features will come in handy to enable you to carry out your eCommerce transactions efficiently. Therefore, if you are an online merchant looking to improve your business with clients, then you have come to the right place.
-                                    </p>
+                                            Amazon's eCommerce services entail making money through retail, web services, and subscriptions. Retail is the primary source of revenue for Amazon when both online and physical stores contributing huge income. Advertising is also one of the fastest-growing businesses. Therefore, if you need any of these services, we are right here to help you to achieve them.
+                                        </p>
                                     </div>
                                 </AnimationContainer>
                             </Col>
@@ -160,10 +158,10 @@ class Ecommercesolu2 extends React.Component {
                             <Col className="serviceinsdie_text_col_end" lg={6} md={12} sm={12} xs={12}>
                                 <AnimationContainer animation="fadeInLeft" delay={600}>
                                     <div className="serviceinsdie_text_div">
-                                        <h4 className="service_heading_style">Managed E-Commerce Solutions</h4>
+                                        <h4 className="service_heading_style">Dropshipping Solution</h4>
                                         <p className="service_para_style">
-                                            They is designed to help you conduct your business electronically. Some of the solutions we offer include answers to a given problem. Such features will come in handy to enable you to carry out your eCommerce transactions efficiently. Therefore, if you are an online merchant looking to improve your business with clients, then you have come to the right place.
-                                    </p>
+                                            Dropshipping is a business transaction that involves the vendor who fulfils the orders for the third party, and they are shipped directly to the owner. The vendor will pay the discounted price for the item to the manufacturer; they make a profit through then the difference between the item cost and its selling price. So, dropshipping is one worth idea for your business, and you get assisted to achieve it with Atriom technologies. With all the resources you have at your disposal, this is doable, and you will reap from it profitably.
+                                        </p>
                                     </div>
                                 </AnimationContainer>
                             </Col>
