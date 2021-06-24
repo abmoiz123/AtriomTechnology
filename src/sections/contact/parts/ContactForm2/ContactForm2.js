@@ -20,7 +20,7 @@ class ContactForm2 extends React.Component {
   }
 
   formSubmit() {
-    alert('Sorry for the inconvenience \r\n Contact Us Update As Soon As Possible \r\n Further Contact on: \r\n +44 7401379573 \r\n +92 3020825699 \r\n info@atriom.co.uk')
+    alert('Sorry for the inconvenience \r\n Contact Us Update As Soon As Possible \r\n Further Contact on: \r\n +44 7401379573 \r\n +92 3020825699 \r\n +92 3060825699 \r\n info@atriom.co.uk')
     // let name = this.state.name;
     // let company = this.state.company;
     // let phone = this.state.phone;

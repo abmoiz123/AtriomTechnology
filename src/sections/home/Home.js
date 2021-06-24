@@ -1,17 +1,11 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import { StaticQuery, graphql } from 'gatsby'
+// import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-// import Typewriter from 'typewriter-effect'
-// import LoopVideo from './assets/loop.mp4'
-// import LoopVideo from './assets/intro_video.mp4'
-import homeimg from './assets/mock2.jpg'
-// import webimage from '../../../static/web.png'
-// import mobimage from '../../../static/mobile.png'
-// import seoimage from '../../../static/seo.png'
-import newwebimage from '../../../static/WEBDEVELOPMENT.png'
-import newmobimage from '../../../static/MOBDEVELOPMENT.png'
-import newseoimage from '../../../static/SEO2.png'
+import homeimg from '../../../static/HomePageImages/HomeImages/frontImage.jpg'
+import newwebimage from '../../../static/HomePageImages/HomeImages/WEBDEVELOPMENT.png'
+import newmobimage from '../../../static/HomePageImages/HomeImages/MOBDEVELOPMENT.png'
+import newseoimage from '../../../static/HomePageImages/HomeImages/SEO2.png'
 class Home extends React.Component {
 
     constructor(props) {
@@ -377,50 +371,50 @@ class Home extends React.Component {
         )
     }
 }
-
-export default props => (
-    <StaticQuery
-        query={graphql`
-      query {
-        background: file(relativePath: {eq: "background-poly.jpg"}) {
-          childImageSharp {
-            fluid(maxWidth: 2000, quality: 100) {
-              src
-            }
-          }
-        }
-        webexpertIcon: file(relativePath: {eq: "icons/web.png"}) {
-          childImageSharp {
-            fluid(maxWidth: 500) {
-              src
-            }
-          }
-        }
-        mobileIcon: file(relativePath: {eq: "icons/mobile.png"}) {
-          childImageSharp {
-            fluid(maxWidth: 500) {
-              src
-            }
-          }
-        }
-        seoIcon: file(relativePath: {eq: "icons/seo.png"}) {
-          childImageSharp {
-            fluid(maxWidth: 500) {
-              src
-            }
-          }
-        }
-      }
-      `}
-        render={({
-            background,
-            webexpertIcon,
-            mobileIcon,
-            seoIcon }) => <Home
-                background={background}
-                webexpertIcon={webexpertIcon}
-                mobileIcon={mobileIcon}
-                seoIcon={seoIcon}
-                {...props} />}
-    />
-)
+export default Home;
+// export default props => (
+//     <StaticQuery
+//         query={graphql`
+//       query {
+//         background: file(relativePath: {eq: "background-poly.jpg"}) {
+//           childImageSharp {
+//             fluid(maxWidth: 2000, quality: 100) {
+//               src
+//             }
+//           }
+//         }
+//         webexpertIcon: file(relativePath: {eq: "icons/web.png"}) {
+//           childImageSharp {
+//             fluid(maxWidth: 500) {
+//               src
+//             }
+//           }
+//         }
+//         mobileIcon: file(relativePath: {eq: "icons/mobile.png"}) {
+//           childImageSharp {
+//             fluid(maxWidth: 500) {
+//               src
+//             }
+//           }
+//         }
+//         seoIcon: file(relativePath: {eq: "icons/seo.png"}) {
+//           childImageSharp {
+//             fluid(maxWidth: 500) {
+//               src
+//             }
+//           }
+//         }
+//       }
+//       `}
+//         render={({
+//             background,
+//             webexpertIcon,
+//             mobileIcon,
+//             seoIcon }) => <Home
+//                 background={background}
+//                 webexpertIcon={webexpertIcon}
+//                 mobileIcon={mobileIcon}
+//                 seoIcon={seoIcon}
+//                 {...props} />}
+//     />
+// )

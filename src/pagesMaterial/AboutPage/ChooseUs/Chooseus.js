@@ -8,12 +8,12 @@ import styled from 'styled-components'
 import Particles from 'react-particles-js';
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import webimage from '../../../../static/WEBDEVELOPMENT.png'
-import mobimage from '../../../../static/MOBDEVELOPMENT.png'
-import seoimage from '../../../../static/SEO2.png'
-import emailimage from '../../../../static/EMAILS.png'
-import networkimage from '../../../../static/NETWORK2.png'
-import sketchimage from '../../../../static/UIUX.png'
+import webimage from '../../../../static/HomePageImages/HomeImages/WEBDEVELOPMENT.png'
+import mobimage from '../../../../static/HomePageImages/HomeImages/MOBDEVELOPMENT.png'
+import seoimage from '../../../../static/HomePageImages/HomeImages/SEO2.png'
+import emailimage from '../../../../static/AboutPageImages/ChooseUs/EMAILS.png'
+import networkimage from '../../../../static/AboutPageImages/ChooseUs/NETWORK2.png'
+import sketchimage from '../../../../static/AboutPageImages/ChooseUs/UIUX.png'
 import './ChooseUs.css'
 
 class ChooseUs extends React.Component {

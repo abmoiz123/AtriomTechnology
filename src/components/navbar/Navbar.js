@@ -1,15 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { Container } from 'react-bootstrap'
 import Menubtn from './menubtn/menubtn'
-
+import AtriomLogo from '../../../static/HomePageImages/HomeImages/Navbar/atriomLogo.png'
 class Navbar extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-          collapse: false,
-          sticky: false,
-          sections: this.props.sections ? this.props.sections : ['home', 'about', 'services', 'portfolio', 'testimonials', 'clients', 'team', 'blog', 'contact']
+            collapse: false,
+            sticky: false,
+            sections: this.props.sections ? this.props.sections : ['home', 'about', 'services', 'portfolio', 'testimonials', 'clients', 'team', 'blog', 'contact']
         }
     }
 
@@ -48,7 +47,7 @@ class Navbar extends React.Component {
             this.setState({ collapse: false })
         }
     }
-    
+
 
     render() {
 
@@ -99,19 +98,19 @@ class Navbar extends React.Component {
                 width: 100%;
             }
         `
-        
-        
-        return(
+
+
+        return (
             <NavbarWrapper className={`header${this.state.sticky === true ? ' sticky' : ''}`}>
                 <NavbarContainer>
                     <LogoWrapper className="logo">
-                        <a href="/"><Logo src="/img/Atriom-Logo-2.png" alt="Atriom" /></a>
+                        <a href="/"><Logo src={AtriomLogo} alt="Atriom" /></a>
                     </LogoWrapper>
-                    <Menubtn/>
+                    <Menubtn />
                 </NavbarContainer>
             </NavbarWrapper>
         )
     }
 }
 
-export default Navbar
+export default Navbar;

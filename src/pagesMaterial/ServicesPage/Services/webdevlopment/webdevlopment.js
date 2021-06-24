@@ -8,7 +8,7 @@ import styled from 'styled-components'
 import AnimatedHeading from 'components/animated-heading'
 import AnimationContainer from 'components/animation-container'
 import servicebackgroundimage from '../../../../../static/polygonz.png'
-import webservice from '../../../../../static/webdevelopservice.jpg'
+import webservice from '../../../../../static/blog1.jpg'
 import './webdevlopment.css'
 
 class Webdevlopment extends React.Component {

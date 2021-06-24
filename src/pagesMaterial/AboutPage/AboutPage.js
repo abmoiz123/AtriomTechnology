@@ -5,8 +5,8 @@ import AnimatedHeading from 'components/animated-heading'
 import Navbar from '../../components/navbar/Navbar'
 import homeimg from './mock3.jpg'
 // import LoopVideo from '../../sections/hero/assets/intro_video.mp4'
-import newwebimage from '../../../static/WEBDEVELOPMENT.png'
-import newmobimage from '../../../static/MOBDEVELOPMENT.png'
+import newwebimage from '../../../static/HomePageImages/HomeImages/WEBDEVELOPMENT.png'
+import newmobimage from '../../../static/HomePageImages/HomeImages/MOBDEVELOPMENT.png'
 
 class AboutPage extends React.Component {
 

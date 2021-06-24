@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Menubtn from '../../../components/navbar/menubtn/menubtn'
-
+import AtriomLogo from '../../../../static/HomePageImages/HomeImages/Navbar/atriomLogo.png'
 
 
 class Header extends React.Component {
@@ -62,7 +62,7 @@ class Header extends React.Component {
             <NavbarWrapper>
                 <NavbarContainer>
                     <LogoWrapper className="logo">
-                        <a href="/"><Logo src="/img/Atriom-Logo-2.png" alt="Atriom" /></a>
+                        <a href="/"><Logo src={AtriomLogo} alt="Atriom" /></a>
                     </LogoWrapper>
                     <Menubtn />
                 </NavbarContainer>

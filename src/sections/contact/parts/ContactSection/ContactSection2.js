@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Col, Container } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
+import AtriomLogo from '../../../../../static/HomePageImages/HomeImages/Navbar/atriomLogo.png'
 import "./ContactSection.css";
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -20,7 +20,7 @@ class ContactSection extends React.Component {
         return (
             <Container className="contact_detail_container">
                 <Col className="contact_detail_col" md={12}>
-                    <img className="atmlogo" src="/img/Atriom-Logo-2.png" alt="Atriom" />
+                    <img className="atmlogo" src={AtriomLogo} alt="Atriom" />
                     <p className="com_info">
                         We Promise the Growth of your Business!
                         <br />
@@ -41,6 +41,8 @@ class ContactSection extends React.Component {
                         info@atriom.co.uk<br />
                         <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
                         +44 7401379573,<br />
+                        <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
+                        +92 3060825699,<br />
                         <FontAwesomeIcon className="contact_form_icon" icon={faPhone} />
                         +92 3020825699</p>
                 </Col>
