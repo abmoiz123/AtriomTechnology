@@ -9,9 +9,12 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import smmimg1 from './smmimages/smm1.png'
-import smmimg2 from './smmimages/smm2.png'
-import smmimg3 from './smmimages/smm3.png'
+// import smmimg1 from './smmimages/smm1.png'
+// import smmimg2 from './smmimages/smm2.png'
+// import smmimg3 from './smmimages/smm3.png'
+import smmimg1 from './smmimages/smmnew1.png'
+import smmimg2 from './smmimages/smmnew2.png'
+import smmimg3 from './smmimages/smmnew3.png'
 
 class Smm2 extends React.Component {
     render() {

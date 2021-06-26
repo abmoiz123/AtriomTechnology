@@ -9,9 +9,12 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import gdva1 from './gdvaimages/gdva1.png'
-import gdva2 from './gdvaimages/gdva2.png'
-import gdva3 from './gdvaimages/gdva3.png'
+// import gdva1 from './gdvaimages/gdva1.png'
+// import gdva2 from './gdvaimages/gdva2.png'
+// import gdva3 from './gdvaimages/gdva3.png'
+import gdva1 from './gdvaimages/graphic2.png'
+import gdva2 from './gdvaimages/graphic3.png'
+import gdva3 from './gdvaimages/graphic1.png'
 
 class Gdva2 extends React.Component {
     render() {

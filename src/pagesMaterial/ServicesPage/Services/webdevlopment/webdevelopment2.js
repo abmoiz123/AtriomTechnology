@@ -16,8 +16,10 @@ import mobslide3 from '../EcommerceSolution/imagesforservice/mobileslide/slide3.
 import tabslide1 from '../EcommerceSolution/imagesforservice/tabletslide/slide1.png'
 import tabslide2 from '../EcommerceSolution/imagesforservice/tabletslide/slide2.png'
 import tabslide3 from '../EcommerceSolution/imagesforservice/tabletslide/slide3.png'
-import webimg1 from './webimages/webimg1.png'
-import webimg2 from './webimages/webimg2.png'
+// import webimg1 from './webimages/webimg1.png'
+// import webimg2 from './webimages/webimg2.png'
+import webimg1 from './webimages/webnewimg2.png'
+import webimg2 from './webimages/webnewimg1.png'
 import './webdevlopment.css'
 class Webdevelopment extends React.Component {
     render() {

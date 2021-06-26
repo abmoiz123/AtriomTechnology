@@ -9,10 +9,14 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import AnimationContainer from 'components/animation-container'
 import AnimatedHeading from 'components/animated-heading'
-import mobimg1 from './mobappimages/mobapp1.png'
-import mobimg2 from './mobappimages/mobapp2.png'
-import mobimg3 from './mobappimages/mobapp3.png'
-import mobimg4 from './mobappimages/mobapp4.png'
+// import mobimg1 from './mobappimages/mobapp1.png'
+// import mobimg2 from './mobappimages/mobapp2.png'
+// import mobimg3 from './mobappimages/mobapp3.png'
+// import mobimg4 from './mobappimages/mobapp4.png'
+import mobimg1 from './mobappimages/mad3.png'
+import mobimg2 from './mobappimages/mad1.png'
+import mobimg3 from './mobappimages/mad2.png'
+import mobimg4 from '../Seo/seoimages/seonew3.png'
 
 class Mad2 extends React.Component {
     render() {
