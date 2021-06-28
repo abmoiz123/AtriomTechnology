@@ -53,5 +53,6 @@ const Images ={
     client52: require('./clientslogos/client52.png'),
     client53: require('./clientslogos/client53.png'),
     client54: require('./clientslogos/client54.png'),
+    client55: require('./clientslogos/client55.png'),
 }
 export default Images;

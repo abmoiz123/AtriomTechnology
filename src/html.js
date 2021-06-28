@@ -1,4 +1,5 @@
 import React from 'react'
+import Atriomicon from '../static/img/AtriomFavicon.png'
 export default class HTML extends React.Component {
   render() {
     return (
@@ -10,7 +11,8 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           {this.props.headComponents}
-          <link href="/img/favicon.ico" rel="icon" />
+          {/* <link href="/img/favicon.ico" rel="icon" /> */}
+          <link href={Atriomicon} rel="icon" />
         </head>
         <body style={{ backgroundColor: '#013567' }}>
         {/* <body style={{ backgroundColor: '#fff' }}> */}

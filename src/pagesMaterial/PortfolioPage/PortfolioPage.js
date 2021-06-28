@@ -342,7 +342,7 @@ class PortfolioPage extends React.Component {
                 },
                 {
                     id: 48,
-                    image: portimage.project47,
+                    image: portimage.project48,
                     title: "Boomerce",
                     category: "WordPress",
                     link: "https://boomerce.com/",

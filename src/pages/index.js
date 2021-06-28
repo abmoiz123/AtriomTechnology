@@ -1,7 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import Layout from 'components/layout'
+import Layout from '../components/layout/index'
+// import Layout from '../components/page-revealer/index2'
 import Home from '../sections/home/Home'
 import AboutOne from 'sections/about/AboutOne.js'
 import ServicesOne from 'sections/services/ServicesOne.js'
@@ -23,6 +24,7 @@ class Index extends React.Component {
           <title>{site.meta.title}</title>
           <meta name="description" content={site.meta.description} />
         </Helmet>
+        {/* <Layout /> */}
         <Layout>
           <Home />
           <AboutOne />

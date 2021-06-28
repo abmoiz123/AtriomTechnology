@@ -391,7 +391,7 @@ class ClientsPage extends React.Component {
                 },
                 {
                     id: 55,
-                    clientlogo: clientsimg.client13,
+                    clientlogo: clientsimg.client55,
                     clientproject: "Boomerce",
                     link: "https://boomerce.com/",
                     fadein: 'fadeInLeft'

@@ -46,5 +46,6 @@ const Images ={
     project45: require('./projectsimages//project45.png'),
     project46: require('./projectsimages//project46.png'),
     project47: require('./projectsimages//project47.png'),
+    project48: require('./projectsimages//project48.png'),
 }
 export default Images;
